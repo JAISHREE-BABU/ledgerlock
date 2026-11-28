@@ -1,0 +1,61 @@
+{
+  "counts": {
+    "missing_in_gateway": 8,
+    "missing_in_bank": 8,
+    "amount_mismatch": 8,
+    "fuzzy": 6,
+    "duplicate_gateway": 4,
+    "duplicate_bank": 3
+  },
+  "references": {
+    "missing_in_gateway": [
+      "TXN000004",
+      "TXN000030",
+      "TXN000059",
+      "TXN000080",
+      "TXN000093",
+      "TXN000114",
+      "TXN000128",
+      "TXN000140"
+    ],
+    "missing_in_bank": [
+      "TXN000032",
+      "TXN000066",
+      "TXN000094",
+      "TXN000100",
+      "TXN000119",
+      "TXN000148",
+      "TXN000189",
+      "TXN000190"
+    ],
+    "amount_mismatch": [
+      "TXN000009",
+      "TXN000029",
+      "TXN000046",
+      "TXN000113",
+      "TXN000121",
+      "TXN000166",
+      "TXN000168",
+      "TXN000181"
+    ],
+    "fuzzy": [
+      "TXN000008",
+      "TXN000038",
+      "TXN000047",
+      "TXN000103",
+      "TXN000144",
+      "TXN000199"
+    ],
+    "duplicate_gateway": [
+      "TXN000025",
+      "TXN000028",
+      "TXN000052",
+      "TXN000157"
+    ],
+    "duplicate_bank": [
+      "TXN000045",
+      "TXN000111",
+      "TXN000165"
+    ]
+  }
+}
