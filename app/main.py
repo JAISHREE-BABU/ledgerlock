@@ -3,8 +3,10 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from app.database import get_db
+from app.routers import upload
 
-app = FastAPI(title="LedgerLock", version="0.2.0")
+app = FastAPI(title="LedgerLock", version="0.5.0")
+app.include_router(upload.router)
 
 
 @app.get("/health")
